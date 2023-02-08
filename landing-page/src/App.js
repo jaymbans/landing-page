@@ -1,9 +1,10 @@
-import './App.css';
+import '../src/style.css'
+import HeroSection from './components/HeroSection';
 
 function App() {
   return (
     <div className="App">
-
+      <HeroSection />
     </div>
   );
 }
