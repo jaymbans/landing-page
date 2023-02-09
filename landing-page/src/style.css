@@ -8,7 +8,12 @@
 
 body {
   max-width: 1500px;
+  height: 100vh;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(16, 69, 149);
 }
 
 /* Hero Section */
@@ -57,4 +62,87 @@ section.hero nav>a {
 section.hero h1 {
   text-align: center;
   margin-top: 10%;
+}
+
+/* Services Sections */
+section.service {
+  padding: 50px 0;
+  background: white;
+}
+
+section.service h2 {
+  text-align: center;
+}
+
+.block-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.block h3 {
+  color: gray;
+  padding: 10px 0;
+}
+
+/* Footer Section */
+footer {
+  color: white;
+  padding: 100px 0px;
+  width: 100%;
+}
+
+.footer-content {
+  margin: 0 auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.footer-content input {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: inherit;
+  border: none;
+  border-bottom: 1px solid white;
+  text-transform: capitalize;
+  padding: 2px 0;
+}
+
+.footer-content input::placeholder {
+  color: white;
+}
+
+.footer-content h2 {
+  margin-bottom: 10px;
+  line-height: 2.5rem;
+}
+
+.footer-content input {
+  margin-bottom: 10px;
+}
+
+.footer-content input:focus {
+  outline: none;
+  color: white;
+}
+
+footer button {
+  width: 30%;
+  padding: 7px 0;
+  color: gray;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 10px;
 }
