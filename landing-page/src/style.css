@@ -87,6 +87,12 @@ section.service h2 {
   align-items: center;
   justify-content: center;
   margin: 0 20px;
+  max-width: 30%;
+  min-width: 20%;
+}
+
+.block img {
+  width: 100%;
 }
 
 .block h3 {
