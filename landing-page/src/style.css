@@ -153,3 +153,22 @@ footer button {
   margin-top: 15px;
   font-size: 10px;
 }
+
+/* Media queries for mobile */
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 14px;
+  }
+
+
+  .block-container {
+    flex-direction: column;
+  }
+
+  .block {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    margin: 20px;
+  }
+}
