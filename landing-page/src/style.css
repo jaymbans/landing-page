@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: rgb(16, 69, 149);
+  background: #133588;
 }
 
 /* Hero Section */
@@ -71,6 +71,7 @@ section.service {
 }
 
 section.service h2 {
+  color: #133588;
   text-align: center;
 }
 
@@ -89,7 +90,7 @@ section.service h2 {
 }
 
 .block h3 {
-  color: gray;
+  color: #806c6c;
   padding: 10px 0;
 }
 
